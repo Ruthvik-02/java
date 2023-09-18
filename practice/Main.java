@@ -14,8 +14,8 @@ public class Main {
 
         //System.out.println(a);
         //System.out.println(a.indexOfValue(60));
-         a.remove(4);
-        System.out.println(a);
+         //a.removeOfindex(4);
+        System.out.println(a.min());
 
     }
 }
@@ -25,6 +25,10 @@ class ArrayList{
     private int size;
 
     private int index = 0;
+
+    private int max = 0;
+
+    private int min = 0;
 
     ArrayList(){
         this(5);
@@ -38,6 +42,10 @@ class ArrayList{
         if(index == items.length){
             resize();
         }
+        if(value>max){
+            max = value;
+        }
+        
         items[index++] = value;
     }
 
@@ -49,6 +57,18 @@ class ArrayList{
         return -1;
     }
 
+    int max(){
+        return max;
+    }
+
+    int min(){
+        for (int i = 0;i<index; i++) {
+            if(items[i]<min){
+                min = items[i];
+            }
+            return min;
+        }
+    }
     private void resize(){
         int tempArray[] = new int[items.length*2];
         for(int i=0;i<items.length;i++){
@@ -57,7 +77,7 @@ class ArrayList{
         items = tempArray;
     }
 
-    public void remove(int value){
+    public void removeOfindex(int value){
         
         for(int i=value;i<index;i++) {
                 items[i] = items[i+1];
