@@ -14,10 +14,10 @@ public class Maxandoccurofaelement {
         }
         int max = 0;
         int occur =0;
-       for (int i = 0; i <=n; i++) {
+       for (int i = 0; i < n; i++) {
 
                 int count =0;
-            for (int j = i+1; j <=n; j++) {
+            for (int j = i+1; j < n; j++) {
                 if(arr[i]==arr[j])
                     count++;
             }
@@ -28,27 +28,5 @@ public class Maxandoccurofaelement {
         }
         System.out.println(max+" "+occur);
         
-
-
-        // int a[] = {3,2,6,8,1,3,4,6,5,2,2,4,5,2};
-		
-	// 	int max = 0;
-	// 	int freq = 0;
-	// 	for(int i=0;i<a.length;i++){
-			
-	// 		int count = 0;
-	// 		for(int j=0;j<a.length;j++){
-	// 			if(a[i]==a[j])
-	// 			count++;
-	// 		}
-			
-	// 		if(count>freq){
-	// 			max = a[i];
-	// 			freq = count;
-	// 		}
-        // 3 2 6 8 1 3 4 6 5 2 2 4 5 2
-
-	// 	}
-	// 	System.out.println(max+" "+freq);
     }
 }
