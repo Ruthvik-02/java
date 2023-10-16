@@ -1,6 +1,6 @@
 
 
-public class Repeatedelementandcount {
+public class Repeatedelementcount {
     public static void main(String[] args) {
         int arr[] = {2,3,4,6,7,7,8,9};
 
