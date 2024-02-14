@@ -6,18 +6,16 @@ public class Sstrings {
         String str = "mississippi";
         int size = sc.nextInt();
         
-        Palindrome(str);
+        isSubstrings(str,size);
     }
 
-    private static void Palindrome(String str) {
-        for (int size = str.length(); size >0 ; size--) {
-            for (int i = 0; i <= str.length() - size; i++) {
-                String res = "";
-                for (int j = i; j < i + size; j++) {
-                    res += str.charAt(j);
-                }
-                System.out.println(res);
+    private static void isSubstrings(String str, int size) {
+        for (int i = 0; i <=str.length()-size ; i++) {
+            String res="";
+            for (int j = i; j < i+size; j++) {
+                res += str.charAt(j);
             }
+            System.out.println(res);
         }
     }
 }

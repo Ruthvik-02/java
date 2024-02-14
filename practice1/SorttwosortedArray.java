@@ -1,5 +1,5 @@
 
-public class SorttwosortedArrays {
+public class SorttwosortedArray {
   public static void main(String[] args) {
     int arr1[] = {3,5,7,9,13};
 
