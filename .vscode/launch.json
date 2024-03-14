@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "StringPalndrome",
+      "request": "launch",
+      "mainClass": "a.StringPalndrome",
+      "projectName": "java_87521591"
+    },
+    {
+      "type": "java",
+      "name": "FactorialOfNumber",
+      "request": "launch",
+      "mainClass": "a.FactorialOfNumber",
+      "projectName": "java_87521591"
+    },
+    {
+      "type": "java",
+      "name": "ReverseNumber",
+      "request": "launch",
+      "mainClass": "a.ReverseNumber",
+      "projectName": "java_87521591"
+    },
+    {
+      "type": "java",
+      "name": "ReverseStrings",
+      "request": "launch",
+      "mainClass": "a.ReverseStrings",
+      "projectName": "java_87521591"
+    },
+    {
+      "type": "java",
       "name": "EvenorOddno",
       "request": "launch",
       "mainClass": "a.EvenorOddno",
