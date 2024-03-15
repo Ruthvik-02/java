@@ -8,8 +8,10 @@ public class CricketTournament {
 		int t = sc.nextInt();
 		
 		while(t-->0){
+
 		    int n = sc.nextInt();
 		    int m = sc.nextInt();
+			
 		    if(n<=m){
 		        System.out.println("No");
 		    }
