@@ -1,3 +1,5 @@
+package leetcode;
+
 public class JewelsInStones {
     public int numJewelsInStones(String jewels, String stones) {
         int count = 0;
