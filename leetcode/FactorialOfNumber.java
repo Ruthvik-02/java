@@ -12,7 +12,7 @@ public class FactorialOfNumber {
 
     public static int factOfNumber(int n){
         int fact = 1;
-        for (int i = 1; i <=4 n; i++) {
+        for (int i = 1; i <= n; i++) {
             fact*=i;
         }
         return fact;
