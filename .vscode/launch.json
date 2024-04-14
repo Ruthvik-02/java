@@ -6,6 +6,111 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ReverseNum",
+      "request": "launch",
+      "mainClass": "practicerecu.ReverseNum",
+      "projectName": "java_87521591"
+    },
+    {
+      "type": "java",
+      "name": "Java8featuredefault",
+      "request": "launch",
+      "mainClass": "java8fea.Java8featuredefault",
+      "projectName": "java_87521591"
+    },
+    {
+      "type": "java",
+      "name": "Demo1",
+      "request": "launch",
+      "mainClass": "java8fea.Demo1",
+      "projectName": "java_87521591"
+    },
+    {
+      "type": "java",
+      "name": "RemoveX",
+      "request": "launch",
+      "mainClass": "practicerecu.RemoveX",
+      "projectName": "java_87521591"
+    },
+    {
+      "type": "java",
+      "name": "BinarySearch",
+      "request": "launch",
+      "mainClass": "practicerecu.BinarySearch",
+      "projectName": "java_87521591"
+    },
+    {
+      "type": "java",
+      "name": "RemoveDuplicate",
+      "request": "launch",
+      "mainClass": "practicerecu.RemoveDuplicate",
+      "projectName": "java_87521591"
+    },
+    {
+      "type": "java",
+      "name": "XPowerN",
+      "request": "launch",
+      "mainClass": "practicerecu.XPowerN",
+      "projectName": "java_87521591"
+    },
+    {
+      "type": "java",
+      "name": "SumOfNums",
+      "request": "launch",
+      "mainClass": "practicerecu.SumOfNums",
+      "projectName": "java_87521591"
+    },
+    {
+      "type": "java",
+      "name": "LastOccuranceOfN",
+      "request": "launch",
+      "mainClass": "practicerecu.LastOccuranceOfN",
+      "projectName": "java_87521591"
+    },
+    {
+      "type": "java",
+      "name": "FirstOccuranceOfN",
+      "request": "launch",
+      "mainClass": "practicerecu.FirstOccuranceOfN",
+      "projectName": "java_87521591"
+    },
+    {
+      "type": "java",
+      "name": "FibonacciSeries",
+      "request": "launch",
+      "mainClass": "practicerecu.FibonacciSeries",
+      "projectName": "java_87521591"
+    },
+    {
+      "type": "java",
+      "name": "FirstNnaturalNum",
+      "request": "launch",
+      "mainClass": "practicerecu.FirstNnaturalNum",
+      "projectName": "java_87521591"
+    },
+    {
+      "type": "java",
+      "name": "FactorialOfNumber",
+      "request": "launch",
+      "mainClass": "leetcode.FactorialOfNumber",
+      "projectName": "java_87521591"
+    },
+    {
+      "type": "java",
+      "name": "ValidPalindrome",
+      "request": "launch",
+      "mainClass": "ValidPalindrome",
+      "projectName": "java_87521591"
+    },
+    {
+      "type": "java",
+      "name": "LeaderArray",
+      "request": "launch",
+      "mainClass": "leetcode.LeaderArray",
+      "projectName": "java_87521591"
+    },
+    {
+      "type": "java",
       "name": "StringPalndrome",
       "request": "launch",
       "mainClass": "a.StringPalndrome",
