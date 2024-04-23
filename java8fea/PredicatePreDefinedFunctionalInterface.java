@@ -2,7 +2,7 @@ package java8fea;
 
 import java.util.function.Predicate;
 
-public class PreDefinedFunctionalInterface {
+public class PredicatePreDefinedFunctionalInterface {
     public static void main(String[] args) {
         // Predicate<Integer> pre = new Predicate<Integer>(){
         //     @Override
