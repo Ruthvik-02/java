@@ -4,6 +4,9 @@ import java.util.function.Predicate;
 
 public class PredicatePreDefinedFunctionalInterface {
     public static void main(String[] args) {
+
+        // predicate -> filter(1 parameter) - true/false
+
         // Predicate<Integer> pre = new Predicate<Integer>(){
         //     @Override
         //     public boolean test(Integer number){
