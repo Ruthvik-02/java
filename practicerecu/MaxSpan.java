@@ -22,7 +22,7 @@ public class MaxSpan {
             int element = index-i+1;
         
             if(element > max) {
-            max = element;
+                max = element;
             }
         }
         
